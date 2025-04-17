@@ -1,0 +1,195 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header {
+    margin: 44px 0 144px 76px;
+
+}
+
+.link-header{
+
+    font-weight: 800px;
+    font-size: 22px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.login {
+    width: 130px;
+    height: 41px;
+    background-color: #665AE1;
+    border: none;
+    border-radius: 20.5px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.login:hover{
+    opacity: .7;
+}
+
+.login:active{
+    opacity: .5;
+}
+    
+
+  
+
+
+.logo-img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+    
+}
+
+
+section{
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+#ajuste{
+    margin-top: -40px;
+}
+.texto{
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 100px;
+    color: #515151;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.50) );
+
+
+}
+
+#Sub-Titulo{
+    font-weight: 500;
+    font-size: 40px;
+    filter: none;
+}
+
+#paragrafo{
+
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 100%;
+    width: 515px;
+    padding: 25px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    word-spacing: 5px;
+    text-align: left;
+}
+
+.botao-explore{
+    color: #989D9C;
+    font-size: 10px;
+}
+
+#explore{
+    width: 130px;
+    height: 41px;
+    background-color: #ADFF00;
+    border: none;
+    border-radius: 20.5px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color:black;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.50) );
+}
+
+#explore:hover{
+    opacity: .7;
+}
+
+
+#explore:active{
+    opacity: .5;
+    background-color: aqua;
+}
+
+
+
+
+
+@media  (max-width:600px) {
+
+    header{
+        display: none;
+    }
+
+    .logo-img{
+        width: 400px;
+        height: 387px;
+        margin-left: 68px;
+        display: inline-block;
+    }
+
+    .texto{
+        line-height: normal;
+    }
+
+    .botao-explore{
+        display: block;
+        margin-left: 188px;
+    }
+
+    #explore {
+       display: block;
+       margin: 0px auto;
+    }
+
+
+    #explore:hover{
+        opacity: 0.8;
+    }
+
+    #explore:active{
+        opacity: .6;
+    }
+
+
+
+
+}
+
+
+
+
+/*   
+
+    width: 130px;
+    height: 41px;
+    background-color: #665AE1;
+    border: none;
+    border-radius: 20.5px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+
+
+/*
+
+
+
+
